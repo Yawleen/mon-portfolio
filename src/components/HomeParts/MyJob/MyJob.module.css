@@ -1,0 +1,39 @@
+.appNameContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+    background-color: #1B1B1B;
+    border-radius: 20px;
+    transition: opacity 0.3s;
+}
+
+.appNameContainer:hover {
+    opacity: 0;
+}
+
+.appName {
+    font-size: 12px;
+    margin: auto;
+}
+
+.itemIcon {
+    margin-left: auto;
+}
+
+.jobName {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.locationBold {
+    font-weight: 700;
+}
