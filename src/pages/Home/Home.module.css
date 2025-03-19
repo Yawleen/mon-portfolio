@@ -6,3 +6,9 @@
     justify-content: center;
     gap: 15px;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
