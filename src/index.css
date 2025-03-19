@@ -2,7 +2,6 @@
 
 :root {
   --color-text: #F6F6F6;
-
   --font-primary: 'Source Code Pro', sans-serif;
 }
 
@@ -22,8 +21,14 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 30px;
+  align-items: center;
   font-family: var(--font-primary), Arial, sans-serif;
   min-width: 320px;
+  min-height: 100vh;
   color: var(--color-text);
   text-rendering: optimizeSpeed;
 }
@@ -31,6 +36,22 @@ body {
 html,
 body {
   -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 ul,
@@ -44,9 +65,9 @@ a {
 }
 
 h1 {
-  font-size: clamp(1.75rem, 2.5vw, 2rem);
+  font-size: clamp(1.4rem, 2.5vw, 1.7rem);
 }
 
 h2 {
-  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
 }
