@@ -1,0 +1,14 @@
+.contactTitle {
+    margin-top: 40px;
+}
+
+.contactTitleBold {
+    font-weight: 800;
+}
+
+.contactSubtitle {
+    position: absolute;
+    top: 20;
+    left: 20;
+    font-size: 14px;
+}
