@@ -6,6 +6,7 @@ import MyJob from "../../components/HomeParts/MyJob/MyJob"
 import MyAvatar from "../../components/HomeParts/MyAvatar/MyAvatar"
 import ContactMe from "../../components/HomeParts/ContactMe/ContactMe"
 import MyProjects from "../../components/HomeParts/MyProjects/MyProjects"
+import MyTech from "../../components/HomeParts/MyTech/MyTech"
 
 export default function Home() {
     return (
@@ -22,6 +23,7 @@ export default function Home() {
             </div>
             <div className={style.column}>
                 <MyProjects />
+                <MyTech />
             </div>
         </div>
     )
