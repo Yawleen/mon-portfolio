@@ -8,7 +8,7 @@ export default function MyProjects() {
     const projectsPath = "/mes-projets";
 
     return (
-        <FlexItem title="Mes projets" link={projectsPath}>
+        <FlexItem grow title="Mes projets" link={projectsPath}>
             <ul className={style.projectsList}>
                 {projects.map(project => (
                     <li key={project.id} className={style.projectItem}>
