@@ -1,0 +1,48 @@
+.projectsList {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    max-height: 200px;
+    padding-right: 5px;
+    overflow-y: auto
+}
+
+.projectItem {
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    min-height: 50px;
+    background: #121212;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.projectItem:hover {
+    transform: scale(0.95);
+}
+
+.projectLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 8px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.projectNameContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.projectIcon {
+    display: flex;
+}
+
+.projectName {
+    font-size: 12px;
+    font-weight: 600;
+}
