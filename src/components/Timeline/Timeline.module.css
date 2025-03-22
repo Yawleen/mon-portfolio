@@ -1,0 +1,69 @@
+.container {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    column-gap: 10px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.timelineContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2px;
+    background-color: #252525;
+}
+
+.bullet {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #252525;
+}
+
+.eventContainer {
+    padding: 5px 10px 5px 5px;
+}
+
+.event {
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #252525;
+}
+
+.eventName {
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.eventPeriod {
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.eventPlace {
+    font-size: 14px;
+}
+
+.timelineContainer:first-of-type .timeline,
+.timelineContainer:nth-last-child(2) .timeline {
+    height: 60%;
+}
+
+.timelineContainer:first-of-type .timeline {
+    align-items: flex-start;
+    align-self: flex-end;
+}
+
+.timelineContainer:nth-last-child(2) .timeline {
+    align-items: flex-end;
+}
