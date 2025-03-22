@@ -20,7 +20,7 @@ export default function MyExperiences() {
   ];
 
   return (
-    <FlexItem grow iconName="briefcase" title="Mes expériences*">
+    <FlexItem iconName="briefcase" title="Mes expériences*">
       <p className={style.text}>*Les plus signifiantes</p>
       <Timeline eventsList={experiences} />
     </FlexItem>
