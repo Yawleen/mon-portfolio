@@ -1,5 +1,11 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+}
+
 .contactTitle {
-    margin-top: 40px;
+    margin-top: auto;
 }
 
 .contactTitleBold {
@@ -8,7 +14,7 @@
 
 .contactSubtitle {
     position: absolute;
-    top: 20;
-    left: 20;
+    top: 25px;
+    left: 25px;
     font-size: 14px;
 }
