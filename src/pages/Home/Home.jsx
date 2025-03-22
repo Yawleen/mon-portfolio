@@ -8,6 +8,7 @@ import ContactMe from "../../components/HomeParts/ContactMe/ContactMe"
 import MyProjects from "../../components/HomeParts/MyProjects/MyProjects"
 import MyTech from "../../components/HomeParts/MyTech/MyTech"
 import MyExperiences from "../../components/HomeParts/MyExperiences/MyExperiences"
+import MyEducation from "../../components/HomeParts/MyEducation/MyEducation"
 
 export default function Home() {
     return (
@@ -28,6 +29,7 @@ export default function Home() {
             </div>
             <div className={style.column}>
                 <MyExperiences />
+                <MyEducation />
             </div>
         </div>
     )
