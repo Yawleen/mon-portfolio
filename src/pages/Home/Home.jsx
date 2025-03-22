@@ -9,6 +9,7 @@ import MyProjects from "../../components/HomeParts/MyProjects/MyProjects"
 import MyTech from "../../components/HomeParts/MyTech/MyTech"
 import MyExperiences from "../../components/HomeParts/MyExperiences/MyExperiences"
 import MyEducation from "../../components/HomeParts/MyEducation/MyEducation"
+import MyCertifications from "../../components/HomeParts/MyCertifications/MyCertifications"
 
 export default function Home() {
     return (
@@ -30,6 +31,7 @@ export default function Home() {
             <div className={style.column}>
                 <MyExperiences />
                 <MyEducation />
+                <MyCertifications />
             </div>
         </div>
     )

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 20px 1fr;
     column-gap: 10px;
-    max-height: 250px;
+    max-height: 150px;
     overflow-y: auto;
 }
 
@@ -46,12 +46,12 @@
 }
 
 .eventPeriod {
-    font-size: 12px;
+    font-size: 11.5px;
     margin-bottom: 1px;
 }
 
 .eventPlace {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .timelineContainer:first-of-type .timeline,
@@ -66,4 +66,27 @@
 
 .timelineContainer:nth-last-child(2) .timeline {
     align-items: flex-end;
+}
+
+.eventDetails {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.eventLink {
+    display: block;
+    color: #1b1b1b;
+    ;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: opacity 0.2s;
+}
+
+.eventLink:hover {
+    opacity: 0.9;
 }
