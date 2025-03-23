@@ -1,14 +1,17 @@
 import style from "./MyProjects.module.css"
 import FlexItem from "../../FlexItem/FlexItem"
-import { projects } from "../../../data/projects"
 import FeatherIcon from "feather-icons-react";
 import { Link } from "react-router-dom";
+import { useProjects } from "../../../hooks/useProjects";
+import Spinner from "../../Spinner/Spinner";
 
 export default function MyProjects() {
+    const { projects, loading } = useProjects();
     const projectsPath = "/mes-projets";
 
     return (
         <FlexItem grow title="Mes projets" link={projectsPath}>
+            {loading && <Spinner />}
             <ul className={style.projectsList}>
                 {projects.map(project => (
                     <li key={project.id} className={style.projectItem}>
