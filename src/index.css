@@ -24,18 +24,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 30px;
   align-items: center;
+  padding: 50px 30px;
   font-family: var(--font-primary), Arial, sans-serif;
   min-width: 320px;
   min-height: 100vh;
   color: var(--color-text);
   text-rendering: optimizeSpeed;
-}
-
-html,
-body {
-  -webkit-overflow-scrolling: touch;
 }
 
 ::-webkit-scrollbar {
