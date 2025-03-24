@@ -8,6 +8,7 @@
     transform: translateX(-50%);
     background: linear-gradient(80deg, #8085e7, #5156c1);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 999;
 }
 
 .navBarList {
