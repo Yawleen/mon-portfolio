@@ -1,0 +1,80 @@
+.navBar {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    background: linear-gradient(80deg, #8085e7, #5156c1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navBarList {
+    display: flex;
+    column-gap: 40px;
+    height: 100%;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 100%;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+}
+
+.icon {
+    flex-shrink: 0;
+}
+
+.iconContainer:hover {
+    background-color: #8085e7;
+}
+
+.activeItem {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    height: 100%;
+    padding: 0 10px;
+    background: #212121;
+    border-radius: 10px;
+    margin-left: auto;
+    overflow: hidden;
+    animation: extend .8s forwards;
+}
+
+.navBarItem:not(:last-child) .activeItem {
+    margin: 0 auto;
+}
+
+.itemName {
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    animation: appear 1.2s forwards;
+}
+
+
+@keyframes extend {
+    0% {
+        width: 40px;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

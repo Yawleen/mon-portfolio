@@ -1,19 +1,25 @@
 import ParticlesBackground from "./components/ParticlesBackground/ParticlesBackground";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
+  const location = useLocation();
+  const showNavbarRoutes = ["/mes-projets", "/contact", "/a-propos-de-moi"];
+  const shouldShowNavbar = showNavbarRoutes.includes(location.pathname);
 
+  
   return (
-    <BrowserRouter>
+    <>
       <ParticlesBackground />
+      {shouldShowNavbar && <Navbar />}
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mes-projets" element={<Projects />} />
       </Routes>
-    </BrowserRouter>
+    </>
   )
 }
 

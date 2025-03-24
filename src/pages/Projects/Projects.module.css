@@ -3,6 +3,7 @@
     flex-direction: column;
     row-gap: 20px;
     width: 100vw;
+    padding-bottom: 55px;
 }
 
 .project {
