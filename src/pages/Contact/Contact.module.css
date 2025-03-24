@@ -1,0 +1,58 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100vw;
+    max-width: 600px;
+    padding: 0 30px 55px;
+}
+
+.mapContainer {
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mailContainer {
+    flex-grow: 2;
+}
+
+.mail,
+.linkedIn {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    background-color: #2c2c4c;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.mail svg,
+.linkedIn svg {
+    flex-shrink: 0;
+}
+
+.mail {
+    margin-bottom: 10px;
+}
+
+.contactText {
+    font-weight: 600;
+    word-break: break-word;
+}
+
+.github {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #79799a;
+    padding: 15px;
+    border-radius: 15px;
+}
