@@ -17,8 +17,14 @@ export default function Projects() {
             const element = document.getElementById(elementId);
             if (element) {
                 element.scrollIntoView({ behavior: "smooth", block: "start" });
+                return
             }
         }
+
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
     }, [location, projects]);
 
     if (loading) return <Spinner />
