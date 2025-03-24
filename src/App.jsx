@@ -3,21 +3,22 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import Navbar from "./components/Navbar/Navbar";
+import { HOME_ROUTE, PROJECTS_ROUTE, CONTACT_ROUTE, ABOUT_ROUTE } from "./config/routes";
 
 function App() {
   const location = useLocation();
-  const showNavbarRoutes = ["/mes-projets", "/contact", "/a-propos-de-moi"];
+  const showNavbarRoutes = [PROJECTS_ROUTE, ABOUT_ROUTE, CONTACT_ROUTE];
   const shouldShowNavbar = showNavbarRoutes.includes(location.pathname);
 
-  
+
   return (
     <>
       <ParticlesBackground />
       {shouldShowNavbar && <Navbar />}
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/mes-projets" element={<Projects />} />
+        <Route path={HOME_ROUTE} element={<Home />} />
+        <Route path={PROJECTS_ROUTE} element={<Projects />} />
       </Routes>
     </>
   )
