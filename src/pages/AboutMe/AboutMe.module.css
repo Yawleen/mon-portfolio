@@ -38,11 +38,16 @@
 
 .codingJourneyText {
     font-size: 15px;
+    font-weight: 300;
     padding: 60px 0 30px;
     max-height: 400px;
     -ms-overflow-style: none;
     scrollbar-width: none;
     overflow-y: auto;
+}
+
+.codingJourneyText span {
+    font-weight: 600;
 }
 
 .codingJourneyText::-webkit-scrollbar {
