@@ -6,8 +6,8 @@ export default function AboutMe() {
     return (
         <FlexItem grow title="Qui suis-je ?" link={ABOUT_ROUTE}>
             <p className={style.aboutMeText}>
-                Une développeuse front-end passionnée qui cherche à donner vie à des idées, à rendre le web accessible à tous et à offrir des
-                expériences utilisateur marquantes.
+                Une aventurière avant tout ! J'ai exploré plusieurs chemins et je me suis beaucoup cherchée avant de trouver quelque chose qui me plaisait. Des sciences du Langage à l'IA pour enfin trouver ma place
+                dans le Développement Web. Depuis 3 ans maintenant, je m'épanouis en tant que Développeuse Front-End et je travaille principalement avec des frameworks JS comme React et Next.js. 🤗
             </p>
         </FlexItem>
     )
