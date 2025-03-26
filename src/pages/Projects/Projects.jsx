@@ -12,6 +12,8 @@ export default function Projects() {
     const location = useLocation();
 
     useEffect(() => {
+        document.title = "Yolène Dev Front-End | Projets";
+
         if (location.hash) {
             const elementId = location.hash.replace("#", "");
             const element = document.getElementById(elementId);

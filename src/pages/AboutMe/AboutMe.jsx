@@ -1,10 +1,15 @@
 import style from "./AboutMe.module.css"
 import Map from "../../components/Map/Map"
 import FeatherIcon from "feather-icons-react"
+import { useEffect } from "react";
 
 export default function AboutMe() {
     const personality = [{ color: "#c0392b", word: "Empathique 👂" }, { color: "#f39c12", word: "Aventurière ✈️" }, { color: "#4a90e2", word: "Ambiverte sociable 🎭" }, { color: "#d4ac4b", word: "Curieuse 🔍" }, { color: "#27ae60", word: "Persévérante 💪🏽" }, { color: "#8e44ad", word: "Perfectionniste 🎯" }];
-    
+
+    useEffect(() => {
+        document.title = "Yolène Dev Front-End | À propos";
+    }, []);
+
     return (
         <div className={style.aboutMe}>
             <div className={style.codingJourneyContainer}>

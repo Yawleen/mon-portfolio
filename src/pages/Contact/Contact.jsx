@@ -1,8 +1,14 @@
 import style from "./Contact.module.css"
 import FeatherIcon from "feather-icons-react"
 import Map from "../../components/Map/Map"
+import { useEffect } from "react";
 
 export default function Contact() {
+
+    useEffect(() => {
+        document.title = "Yolène Dev Front-End | Contact";
+    }, []);
+
     return (
         <div className={style.contactContainer}>
             <div className={style.mapContainer}>

@@ -10,8 +10,13 @@ import MyTech from "../../components/HomeParts/MyTech/MyTech"
 import MyExperiences from "../../components/HomeParts/MyExperiences/MyExperiences"
 import MyEducation from "../../components/HomeParts/MyEducation/MyEducation"
 import MyCertifications from "../../components/HomeParts/MyCertifications/MyCertifications"
+import { useEffect } from "react"
 
 export default function Home() {
+    useEffect(() => {
+        document.title = "Yolène Dev Front-End | Portfolio";
+    }, []);
+
     return (
         <div className={style.container}>
             <div className={style.column}>
