@@ -51,6 +51,7 @@ export default function Projects() {
                     <div className={style.projectInfo}>
                         <p className={style.projectName}>{project.name}</p>
                         <p className={style.projectDescription}>{project.description}</p>
+                        <p className={style.projectDate}>Date de réalisation : {project.date}</p>
                         <p className={style.projectFeaturesTitle}>Fonctionnalités principales</p>
                         <ul className={style.projectFeaturesList}>
                             {project.mainFeatures.map((feature, i) => (

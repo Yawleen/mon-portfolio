@@ -85,6 +85,12 @@
     font-size: 14px;
 }
 
+.projectDate {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
 .projectFeaturesTitle,
 .techTitle {
     font-weight: 700;
