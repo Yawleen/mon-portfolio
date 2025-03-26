@@ -1,7 +1,7 @@
 import style from "./Navbar.module.css"
 import { Link, useLocation } from "react-router-dom";
 import FeatherIcon from "feather-icons-react";
-import { HOME_ROUTE, PROJECTS_ROUTE, CONTACT_ROUTE } from "../../config/routes";
+import { HOME_ROUTE, PROJECTS_ROUTE, CONTACT_ROUTE, ABOUT_ROUTE } from "../../config/routes";
 
 export default function Navbar() {
     const location = useLocation();
@@ -18,10 +18,16 @@ export default function Navbar() {
             name: "Projets"
         },
         {
+            iconName: "user",
+            route: ABOUT_ROUTE,
+            name: "À propos"
+        },
+        {
             iconName: "mail",
             route: CONTACT_ROUTE,
             name: "Contact"
         },
+
     ];
 
     return (
