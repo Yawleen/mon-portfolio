@@ -6,7 +6,7 @@ export default function MyAvatar() {
     return (
         <FlexItem grow iconName="user-check">
             <div className={style.avatarContainer}>
-                <img className={style.avatar} src={Avatar} alt="Yolène qui développe" />
+                <img className={style.avatar} src={Avatar} alt="Yolène qui développe" loading="lazy" />
             </div>
         </FlexItem>
     )
