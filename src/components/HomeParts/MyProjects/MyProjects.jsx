@@ -10,12 +10,12 @@ export default function MyProjects() {
     const { projects, loading } = useProjects();
 
     return (
-        <FlexItem grow title="Mes projets" link={PROJECTS_ROUTE}>
+        <FlexItem grow title="Mes projets" link={{ label: "Voir mes projets", href: PROJECTS_ROUTE }}>
             {loading && <Spinner />}
             <ul className={style.projectsList}>
                 {projects.map(project => (
                     <li key={project.id} className={style.projectItem}>
-                        <Link className={style.projectLink} to={`${PROJECTS_ROUTE}#${project.id}`}>
+                        <Link className={style.projectLink} aria-label={`Voir le projet ${project.name}`} to={`${PROJECTS_ROUTE}#${project.id}`}>
                             <span className={style.projectNameContainer}>
                                 <span className={style.projectIcon}>
                                     <FeatherIcon icon={project.iconName} size="18" stroke="white" strokeWidth={2.5} />

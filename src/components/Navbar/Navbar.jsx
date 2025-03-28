@@ -35,7 +35,7 @@ export default function Navbar() {
             <ul className={style.navBarList}>
                 {navBarItems.map(item => (
                     <li key={item.iconName} className={style.navBarItem}>
-                        <Link to={item.route} className={style.navBarLink}>
+                        <Link to={item.route} {...(location.pathname === item.route && { "aria-current": "page"})} className={style.navBarLink}>
                             {location.pathname === item.route ? (
                                 <span className={style.activeItem}>
                                     <FeatherIcon className={style.icon} icon={item.iconName} size="16" fill="white" stroke="#212121" strokeWidth={1} />

@@ -25,7 +25,7 @@ export default function Contact() {
                         <span className={style.contactText}>LinkedIn</span>
                     </a>
                 </div>
-                <a href="https://github.com/Yawleen" target="_blank" className={style.github}>
+                <a href="https://github.com/Yawleen" target="_blank" aria-label="Visiter mon GitHub" className={style.github}>
                     <FeatherIcon icon="github" size="50" fill="white" stroke="transparent" />
                 </a>
             </div>
