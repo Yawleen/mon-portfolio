@@ -1,6 +1,6 @@
 import style from "./MyAvatar.module.css"
 import FlexItem from "../../FlexItem/FlexItem"
-import Avatar from "../../../assets/img/yolène_dev.webp"
+import Avatar from "/img/yolène_dev.webp"
 
 export default function MyAvatar() {
     return (
