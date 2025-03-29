@@ -7,7 +7,7 @@ export function useProjects() {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch("/data/projects.json");
+        const response = await fetch(`${import.meta.env.BASE_URL}data/projects.json`);
 
         if (!response.ok) {
           throw new Error("Erreur lors de la récupération des projets.");

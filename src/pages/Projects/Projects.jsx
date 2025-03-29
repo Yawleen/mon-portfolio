@@ -37,7 +37,7 @@ export default function Projects() {
                 <li key={project.id} id={project.id} className={style.project}>
                     <div className={style.projectIllustration}>
                         <div className={style.projectImageContainer}>
-                            <ImageComponent src={project.image} alt={project.name} />
+                            <ImageComponent src={`${import.meta.env.BASE_URL}${project.image}`} alt={project.name} />
                         </div>
                         <div className={style.projectActions}>
                             <a className={style.projectAction} href={project.github} target="_blank">

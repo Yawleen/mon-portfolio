@@ -2,7 +2,7 @@
   {
     "id": 1,
     "iconName": "shopping-bag",
-    "image": "/projects_img/bubulle_project.webp",
+    "image": "projects_img/bubulle_project.webp",
     "name": "Bubulle : site de commandes",
     "description": "Création d’un site de commandes pour les bornes d’un café/restaurant fictif qui vend des banh mis et des bubble tea.",
     "date": "Février 2023",
@@ -28,7 +28,7 @@
   {
     "id": 2,
     "iconName": "sliders",
-    "image": "/projects_img/linear_gradient_generator_project.webp",
+    "image": "projects_img/linear_gradient_generator_project.webp",
     "name": "Générateur CSS de dégradé linéaire",
     "description": "Un outil pour développeurs qui permet de créer et visualiser instantanément de jolis dégradés pour des sites ou applications.",
     "date": "Mai 2022",
@@ -69,7 +69,7 @@
   {
     "id": 3,
     "iconName": "image",
-    "image": "/projects_img/image_style_generator_project.webp",
+    "image": "projects_img/image_style_generator_project.webp",
     "name": "Générateur CSS pour la stylisation d’images",
     "description": "Un autre outil pour développeurs, utile pour styliser les images.",
     "date": "Mai 2022",
@@ -110,7 +110,7 @@
   {
     "id": 4,
     "iconName": "thermometer",
-    "image": "/projects_img/weather_app_project.webp",
+    "image": "projects_img/weather_app_project.webp",
     "name": "Application météo",
     "description": "Une application météo pour voir le temps qu’il fait où vous êtes ou dans la ville de votre choix.",
     "date": "Avril 2022",
@@ -150,7 +150,7 @@
   {
     "id": 5,
     "iconName": "code",
-    "image": "/projects_img/IDE_project.webp",
+    "image": "projects_img/IDE_project.webp",
     "name": "IDE Web",
     "description": "Un IDE Web pour éditer du code HTML, CSS et JavaScript.",
     "date": "Mars 2025",
@@ -188,7 +188,7 @@
   {
     "id": 6,
     "iconName": "edit",
-    "image": "/projects_img/Notes101_project.webp",
+    "image": "projects_img/Notes101_project.webp",
     "name": "Notes101",
     "description": "Une application Web pour gérer facilement des notes.",
     "date": "Mars 2025",
@@ -227,7 +227,7 @@
   {
     "id": 7,
     "iconName": "shopping-cart",
-    "image": "/projects_img/mini_e-commerce_project.webp",
+    "image": "projects_img/mini_e-commerce_project.webp",
     "name": "Mini E-commerce",
     "description": "Un mini E-commerce",
     "date": "Mars 2025",
