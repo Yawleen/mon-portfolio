@@ -21,7 +21,6 @@ export default function MyJob() {
       </div>
       <div className={style.jobInfo}>
         <p className={style.jobName}>Développeuse Front-End JavaScript</p>
-        <p className={style.location}>Basée entre <span className={style.locationBold}>Paris</span> et <span className={style.locationBold}>Montréal</span></p>
       </div>
     </FlexItem>
   )
