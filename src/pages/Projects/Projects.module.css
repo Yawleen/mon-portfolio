@@ -96,6 +96,10 @@
     font-weight: 700;
 }
 
+.techTitle {
+    flex-shrink: 0;
+}
+
 .projectName,
 .projectDescription,
 .projectFeaturesTitle,
@@ -120,5 +124,6 @@
 
 .techList {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 15px;
 }
