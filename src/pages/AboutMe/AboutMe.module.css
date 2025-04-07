@@ -38,7 +38,6 @@
 
 .codingJourneyText {
     font-size: 15px;
-    font-weight: 300;
     padding: 85px 0 30px;
     max-height: 400px;
     -ms-overflow-style: none;
@@ -47,7 +46,7 @@
 }
 
 .codingJourneyText span {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .codingJourneyText::-webkit-scrollbar {
