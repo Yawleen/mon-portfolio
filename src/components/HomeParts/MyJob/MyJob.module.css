@@ -18,6 +18,7 @@
 
 .appName {
     font-size: 12px;
+    word-break: break-all;
     margin: auto;
 }
 
