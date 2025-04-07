@@ -24,6 +24,7 @@ function App() {
         <Route path={ABOUT_ROUTE} element={<AboutMe />} />
         <Route path={CONTACT_ROUTE} element={<Contact />} />
       </Routes>
+      {location.pathname === HOME_ROUTE && <small className="signature">Yolène CONSTABLE - Site développé avec React (2025)</small>}
     </>
   )
 }
