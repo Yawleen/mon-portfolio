@@ -262,5 +262,47 @@
     ],
     "link": "https://yawleen.github.io/site-portfolio/projets/projets-react/Mini-E-commerce/",
     "github": "https://github.com/Yawleen/Mini-E-commerce"
+  },
+  {
+    "id": 8,
+    "iconName": "align-left",
+    "image": "projects_img/axoria_blog_project.webp",
+    "name": "Axoria : blog tech communautaire",
+    "description": "Un blog communautaire sur les technologies",
+    "date": "Avril 2025",
+    "mainFeatures": [
+      "Inscription / Authentification",
+      "Création d'articles en Markdown",
+      "Consultation d'articles",
+      "Modification d'articles",
+      "Suppression d'articles",
+      "Affichage des articles par catégorie ou auteur",
+      "Visualisation d'un tableau de bord avec les articles publiés"
+    ],
+    "tech": [
+      {
+        "icon": {
+          "name": "nextjs",
+          "color": "#000"
+        },
+        "name": "Next.js"
+      },
+      {
+        "icon": {
+          "name": "tailwindcss",
+          "color": "#3ab7f0"
+        },
+        "name": "TailwindCSS"
+      },
+      {
+        "icon": {
+          "name": "mongodb",
+          "color": "#22ae55"
+        },
+        "name": "MongoDB"
+      }
+    ],
+    "link": "https://axoria-blog-eight.vercel.app/",
+    "github": "https://github.com/Yawleen/axoria-blog"
   }
 ]

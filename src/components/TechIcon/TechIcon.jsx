@@ -1,6 +1,6 @@
 import { IconContext } from "react-icons";
 import { FaHtml5, FaReact, FaCss3Alt, FaSass } from "react-icons/fa";
-import { SiJavascript, SiRedux, SiTypescript } from "react-icons/si";
+import { SiJavascript, SiRedux, SiTypescript, SiNextdotjs, SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import { GrGraphQl } from "react-icons/gr";
 import { Tooltip } from 'react-tooltip'
@@ -17,7 +17,9 @@ export default function TectIcon({ iconName, size = 24, color = "white", tooltip
         ts: SiTypescript,
         tailwindcss: RiTailwindCssFill,
         redux: SiRedux,
-        graphql: GrGraphQl
+        graphql: GrGraphQl,
+        nextjs: SiNextdotjs,
+        mongodb: SiMongodb
     };
 
     const IconComponent = icons[iconName];
