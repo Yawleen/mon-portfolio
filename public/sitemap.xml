@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://yawleen.github.io/mon-portfolio/</loc>
+    <loc>https://yoleneconstable.dev/</loc>
     <lastmod>2025-03-27</lastmod>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://yawleen.github.io/mon-portfolio/a-propos-de-moi</loc>
+    <loc>https://yoleneconstable.dev/#/a-propos-de-moi</loc>
     <lastmod>2025-03-27</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://yawleen.github.io/mon-portfolio/mes-projets</loc>
+    <loc>https://yoleneconstable.dev/#/mes-projets</loc>
     <lastmod>2025-03-27</lastmod>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://yawleen.github.io/mon-portfolio/contact</loc>
+    <loc>https://yoleneconstable.dev/#/contact</loc>
     <lastmod>2025-03-27</lastmod>
     <priority>0.7</priority>
   </url>
